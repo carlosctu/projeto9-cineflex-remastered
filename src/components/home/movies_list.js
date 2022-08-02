@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { getMovies } from "../services/api";
+import { getMovies } from "../../services/api";
 
 export default function MoviesList() {
   const [movie, setMovie] = useState("");

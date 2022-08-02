@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import styled from "styled-components";
+import { getMovieSession, postReservationInfo } from "../../services/api";
 import Footer from "../fixed_components/footer";
-import { getMovieSession, postReservationInfo } from "../services/api";
 import MovieSessionReferences from "./movie-sessions-reference";
 import MovieSessionTitle from "./movie_session_title";
 import "./style.css";

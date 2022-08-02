@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
+import { getMovieShowTime } from "../../services/api";
 import Footer from "../fixed_components/footer";
-import { getMovieShowTime } from "../services/api";
 
 export default function MovieAvailability() {
   const [movieShowtime, setMovieShowtime] = useState("");
